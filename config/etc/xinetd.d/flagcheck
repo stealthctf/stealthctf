@@ -1,0 +1,15 @@
+service flagcheck
+{
+	disable = no
+        only_from       = 0.0.0.0/0
+        per_source      = UNLIMITED 
+	type           = UNLISTED
+	socket_type    = stream
+	protocol       = tcp
+	wait           = no
+	user           = root
+	port	       = 1881
+	flags          = NODELAY
+	server         = /root/flagcheck.sh
+	instances      = 1
+}

@@ -1,0 +1,22 @@
+<group name="custom,tomcat">
+  <rule id="100002" level="12">
+    <if_sid>31108</if_sid>
+    <description>Possible execution of CVE-2023-51467: POST request to ProgramExport detected</description>
+    <protocol>POST</protocol>
+    <url>ProgramExport</url>
+  </rule>
+</group>
+<!--<group name="custom,application">
+  <rule id="100003" level="10">
+    <description>Rendering View [ProgramExport] event detected</description>
+    <match>Rendering View \[ProgramExport\]</match>
+  </rule>
+</group>-->
+<group name="custom,newprocess">
+  <rule id="10003" level="7">
+    <if_sid>530</if_sid>
+    <match>ossec: output: 'pstree running proc</match>
+    <check_diff />
+    <description>New process opened or closed.</description>
+   </rule>
+</group>

