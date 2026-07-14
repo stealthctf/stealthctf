@@ -1,0 +1,9 @@
+<group name="custom,tomcat">
+<rule id="100002" level="12">
+  <if_sid>31108</if_sid>
+  <description>Possible execution of CVE-2023-51467:
+    POST request to ProgramExport detected</description>
+  <protocol>POST</protocol>
+  <url>ProgramExport</url>
+</rule>
+</group>

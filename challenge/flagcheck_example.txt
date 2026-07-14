@@ -1,0 +1,19 @@
+telnet x.x.x.46 1881
+Connected to x.x.x.46.
+Please input flag:
+zeRIv2hmgSiaiaMm13SQf0VR
+correct, calculating results
+** Alert 1723752961.0: - ossec,(...)
+Rule: 502 (level 3) -> 'Wazuh server started.'
+
+** Alert 1723753322.248: mail  - custom,tomcat
+Rule: 100002 (level 12) -> 'Possible execution of
+  CVE-2023-51467: POST request to ProgramExport'
+10.8.0.10 - - "POST /.../ProgramExport HTTP/1.1" 200
+
+** Alert 1723753330.597: mail  - custom,tomcat
+Rule: 100002 (level 12) -> 'Possible execution of
+  CVE-2023-51467: POST request to ProgramExport'
+127.0.0.1 - - "POST /.../ProgramExport HTTP/1.1" 200
+
+You had 3 alerts and a score of 27

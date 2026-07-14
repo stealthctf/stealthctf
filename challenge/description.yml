@@ -1,0 +1,31 @@
+name: "stealthctf"
+category: misc
+description: |
+  Your goal is not only to pwn this machine, but to do
+  it stealthily. A set of EDR systems are monitoring
+  the machine and your score will be calculated based on
+  the alert score you generate. The more stealthy you
+  are, the less alerts you will generate and the more
+  points you will score.
+  You can submit flags for this challenge multiple
+  times, so you can try different approaches to get the
+  flag and improve your score.
+
+  Disclaimers:
+  - Do not play around with the checkscript (port 1881)
+  - Do not try to get root on the system.
+  - Do not try to fill the disk with logfiles.
+
+  When you have successfully submitted a flag it is
+  **REQUIRED** for you to open a ticket and submit your
+  payload and your strategy to evade detection.
+
+  The following formula is used to calculate the points:
+  def calculate_ctf_points(alert_score,
+      max_points=500, min_points=100, steepness=.2):
+    decay_factor = steepness * math.log(alert_score)
+    points = max_points - decay_factor *
+             (max_points - min_points)
+    return int(max(min_points, points))
+value: 500
+tags: medium
