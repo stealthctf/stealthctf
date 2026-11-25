@@ -28,7 +28,7 @@ The output of the flag-check script is the __sum of alert severity scores__ encr
 The result has to be an integer. All submitted results, including incorrect ones, should be logged for further research. E.g. if we find someone send us an integer with a score of "0", they have access to the check-script and may have been root on the machine. Or they found an alternative solution, which is hopefully shown during their submit of their payload/detection evasion strategy.
 
 ### Dynamic scoring
-We propose to use dynamic scoring. Since there is always an alert being triggered, that wazuh is starting up, 1 shall be the perfect score.
+We propose to use dynamic scoring. Since there is always an alert being triggered, that wazuh is starting up (rule 502, level 3), an alert score of 3 is the perfect score.
 Using just the CVE without any adaptions against Apache "3 alerts/score 27" is the best result. Using the CVE against tomcat (8443) directly, only triggers tomcat logs, therefore "2 alerts/score 14" is the score. This is a simple edit and should be found quickly.
 Tricking the apache logging module utilizing the timeout issue we found should be the most tricky, therefore get the most points.
 
@@ -37,7 +37,7 @@ Tricking the apache logging module utilizing the timeout issue we found should b
 #!/bin/python3
 
 import math
-def calculate_ctf_points(x, max_points=500, min_points=100, steepness=.5):
+def calculate_ctf_points(x, max_points=500, min_points=100, steepness=.2):
     """
     Calculate CTF points using logarithmic decay.
     
@@ -48,7 +48,7 @@ def calculate_ctf_points(x, max_points=500, min_points=100, steepness=.5):
     steepness (float): Controls the steepness of the decay
     
     Returns:
-    float: The CTF points awarded.
+    int: The CTF points awarded.
     """
     if x <= 0:
         raise ValueError("Score must be greater than 0")
@@ -91,3 +91,27 @@ Please put in contact addresses if you want to take part of the Stealth-Cup. (se
 
 Do not play around with the checkscript (port 1881). Do not try to fill the disk with logfiles so that no space is left. Please leave directory /_for_research_please_ignore alone.
 ```
+
+# Paper artifacts (CSET 2026)
+Artifacts for the paper "Measuring the Wrong Thing: Validity Threats in CTF-Based IDS Evaluation".
+
+* `logs/`: anonymized per-team log snapshots. The files end in `.tar.gz` but are xz-compressed; the scripts read them directly. The event took place on 18 Sep 2024. The `team_at` archives also contain a few entries from tests on 11-13 Sep 2024, which the analysis skips.
+* `scripts/analyze.py`: reproduces Table 1 and the alert composition in Section 5.
+* `scripts/score.py`: reproduces the awarded points shown in Figure 3.
+* `challenge/` and `ids/`: challenge description as shown to participants and the custom Wazuh rule.
+* `ACSC Ergebnisse.md`: challenge description and the write-ups of the two solving teams.
+* `challenge_instances_stealthctf_2.xlsx`: container start and end times (source of the runtimes in Figure 2; no plotting script is included).
+
+## Reproducing the numbers
+```
+python3 scripts/analyze.py logs
+```
+prints 529,716 unique event-day alerts (56% of the raw lines are duplicates from overlapping backups; 68 pre-event alerts are skipped), 75 firings of the exploit rule (id 100002), the per-team table (5 of 8 teams loaded an OFBiz application page, 3 of 8 sent requests to ProgramExport) and the alert composition (463,366 / 36,868 / 29,049). The column `first_app_page_utc` is in UTC; the paper uses local time (UTC+2).
+
+```
+python3 scripts/score.py
+```
+prints the awarded points for the raw alert scores 139, 27, 13 and 3: 107, 246, 316 and 500.
+
+## Scoring as deployed
+The deployed steepness was 0.2. The start-up alert (level 3) was subtracted from every submission and the points were rounded to the nearest integer, which is what `scripts/score.py` implements. The formula in `challenge/description.yml` shows neither step, and `flagcheck.sh` in this repository sums all alert levels.
